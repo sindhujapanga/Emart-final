@@ -1,0 +1,62 @@
+
+<div class="container pt-5">
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-sm-6">
+            <div class="card bg text-black bg-transparent ">
+                <div class="card-header text-center "><h4>LOGIN</h4>
+                </div>
+                <div>
+                    <p class="text-danger">{{errorMessage}}</p>
+                </div>
+                <div class="card-body">
+                    <form action="">
+                        <div class="Form-group mx-2 my-3">
+                            <h6>Login in as</h6>
+                            <div class="row mx-2 my-3">
+                                <div class="col">
+                                    <input type="radio" name="signup" [(ngModel)]="sign" value="buyer">Buyer</div>
+                                <div class="col">
+                                    <input type="radio" name="signup" [(ngModel)]="sign" value="seller">Seller
+                                </div>
+                            </div>
+                            
+                            <label for="username">USER</label>
+                            <div class="input-container">
+                                <i class="fa fa-user icon"></i>
+                           
+                            <input type="text" class="form-control bg-transparent" id="username" [(ngModel)]="username"
+                                placeholder="username" name="username" />
+                            </div>
+                          
+                        </div>
+                        <div class="Form-group mx-2 my-3">
+                            <label for="pass">PASSWORD</label>
+                            <div class="input-container">
+                                <i class="fa fa-key icon"></i>
+                           
+                            <input type="password" class="form-control bg-transparent" id="pass" [(ngModel)]="password"
+                                placeholder="password" name="password" />
+                                </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col">
+                                <div class="Form-group mx-2 my-2">
+                            <button type="submit" class="btn btn-primary float-right" (click)="validate()">LOGIN</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+</div>
+<footer class="sticky-footer fixed-bottom">
+    2020 @Copyright
+</footer>

@@ -1,0 +1,23 @@
+<div class="container mx-5 my-5 text-white">
+  <div class="row content ">
+    <div class="col-md-5">
+      <img class="card-img-top " [src]="item?.image" alt="item.name" style="width:300px" enctype='multipart/form-data'>
+    </div>
+    <div class="col-md-7 ">
+      <div class="container ">
+        <h3><small>Product Details</small></h3>
+        <hr>
+        <h2>{{item?.name}}</h2>
+        <h3>{{item?.price}}</h3>
+        <button type="button" class="btn btn-primary" (click)="addToCart(item)">Add to Cart</button>
+      </div>
+      <div class="container-fluid ">
+        <br>
+        <p class="text-left">{{item?.description}}</p>
+        <br><br>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>

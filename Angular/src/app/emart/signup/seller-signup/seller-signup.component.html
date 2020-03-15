@@ -1,0 +1,116 @@
+<div class="row">
+  <div class="col-lg-3">
+  </div>
+  <div class="col-sm-6">
+    <div class="card bg text-Black bg-transparent">
+      <div class="card-header" style="text-align:center">
+        <h5>Seller Sign-up</h5>
+      </div>
+      <div class="card-body ">
+       
+        <!--<input type="text" class="form-control" placeholder="Seller ID" [(ngModel)]='sid'><br>-->
+        <div class="row">
+          <div class="col">
+            <div class="Form-group mx-1 my-1">
+              <div class='input-container'>
+              <i class="material-icons">perm_identity</i>
+                 
+            <input type="text-white" class="form-control bg-transparent" placeholder="Seller Name" [(ngModel)]='susername'><br>
+        </div>
+           </div></div></div>
+           
+           <div class="row">
+            <div class="col">
+              <div class="Form-group mx-1 my-1">
+                <div class='input-container'>
+                <i class="material-icons">business</i>
+        <input type="text" class="form-control bg-transparent" placeholder="Company Name" [(ngModel)]='scompany'><br>
+      </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="Form-group mx-1 my-1">
+              <div class='input-container'>
+              <i class="material-icons">lock</i>
+        <input type="password" class="form-control  bg-transparent" placeholder="Password" [(ngModel)]='spassword'><br>
+      </div>
+        </div>
+        </div>
+        </div>
+
+       <!-- <input type="password" class="form-control" placeholder="Confirm Password"><br>-->
+       <div class="row">
+        <div class="col">
+          <div class="Form-group mx-1 my-1">
+            <div class='input-container'>
+            <i class="material-icons">email</i>
+        <input type="text" class="form-control  bg-transparent" placeholder="Email" [(ngModel)]='semail'><br>
+      </div>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="Form-group mx-1 my-1">
+              <div class='input-container'>
+              <i class="material-icons">call</i>
+        <input type="text" class="form-control  bg-transparent" placeholder="Mobile Number" [(ngModel)]='scontact'><br>
+      </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="Form-group mx-1 my-1">
+              <div class='input-container'>
+              <i class="material-icons">chat_bubble</i>
+        <textarea class="form-control  bg-transparent" placeholder="About Company"[(ngModel)]='sbrief' ></textarea><br>
+      </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="Form-group mx-1 my-1">
+              <div class='input-container'>
+              <i class="material-icons">place</i>
+        <textarea class="form-control  bg-transparent" placeholder="Address of the Company" [(ngModel)]='saddress'></textarea><br>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="Form-group mx-1 my-1">
+              <div class='input-container'>
+              <i class="fa fa-percent"></i>
+        <input type="text" class="form-control  bg-transparent" placeholder="GST IN" [(ngModel)]='sgst'><br>
+      </div>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col">
+                <button type="button" class="btn btn-info float-right" (click)="addSeller()">Register</button>
+              </div>
+        </div>
+    
+      </div>
+
+        
+   
+
+    </div>
+  </div>
+  <div class="col"></div>
+</div>
+
+<footer class="sticky-footer fixed-bottom">
+  2020 @Copyright
+</footer>

@@ -1,0 +1,72 @@
+
+
+<div class="container pt-5">
+	<div class="row">
+		<div class="col"></div>
+		<div class="col-sm-6">
+			<div class="card  bg text-black bg-transparent">
+				<div class="card-header text-center"><h4>Sign Up</h4></div>
+				<div class="card-body">
+					<form action="">
+						<div class="row">
+							<div class="col">
+								<div class="Form-group mx-2 my-3">
+									<label for="username">USER</label>
+									<input type="text" class="form-control bg-transparent" id="username" placeholder="username"
+										name="username" [(ngModel)]="busername">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="Form-group mx-2 my-3">
+									<label for="password">PASSWORD</label>
+									<input type="text" class="form-control bg-transparent" id="password" placeholder="password"
+										name="password" [(ngModel)]="bpassword">
+								</div>
+							</div>
+							
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="Form-group mx-2 my-3">
+									<label for="email">EMAILID</label>
+									<input type="text" class="form-control bg-transparent" id="email" placeholder="email"
+										name="email" [(ngModel)]="bemail">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="Form-group mx-2 my-3">
+									<label for="phoneno">MOBILE NUMBER</label>
+									<input type="tel" class="form-control bg-transparent" id="mobile" placeholder="mobile number"
+										name="mobile" [(ngModel)]="bmobile">
+								</div>
+							</div>
+							<div class="col">
+								<div class="Form-group mx-2 my-3">
+									<label for="date">Date</label>
+									<input type="date" class="form-control bg-transparent" id="date" placeholder="date"
+										name="date" [(ngModel)]="bdate">
+								</div>
+							</div>
+
+
+						</div>
+						<div class="row">
+							<div class="col">
+							<button type="button" class="btn btn-info float-right" (click)="addBuyer()">Register</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+		</div>
+	</div>
+</div>
+<footer class="sticky-footer fixed-bottom">
+    2020 @Copyright
+</footer>
